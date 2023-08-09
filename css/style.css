@@ -843,7 +843,7 @@ a:focus {
     top: calc(25% - 18px);
 }
 
-.Certificate .Certificate-item figure .portfolio-title {
+.Certificate .Certificate-item figure .Certificate-title {
     margin: 0;
     width: 100%;
     height: 50%;
