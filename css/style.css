@@ -739,23 +739,23 @@ a:focus {
 
 
 /**********************************/
-/********** Portfolio CSS *********/
+/********** Certificate CSS *********/
 /**********************************/
-.portfolio {
+.Certificate {
     position: relative;
     padding: 60px 30px 30px 30px;
     background: #ffffff;
     border-bottom: 30px solid #233F4D;
 }
 
-.portfolio #portfolio-flters {
+.Certificate #Certificate-flters {
     padding: 0;
     margin: -15px 0 30px 0;
     list-style: none;
     font-size: 0;
 }
 
-.portfolio #portfolio-flters li {
+.Certificate #Certificate-flters li {
     cursor: pointer;
     margin: 15px -1px 0 0;
     display: inline-block;
@@ -770,19 +770,19 @@ a:focus {
     transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
+.Certificate #Certificate-flters li:hover,
+.Certificate #Certificate-flters li.filter-active {
     background: #FF6F61;
     color: #222222;
 }
 
-.portfolio .portfolio-item {
+.Certificate .Certificate-item {
     position: relative;
     height: 250px;
     overflow: hidden;
 }
 
-.portfolio .portfolio-item figure {
+.Certificate .Certificate-item figure {
     background: #ffffff;
     overflow: hidden;
     height: 220px;
@@ -791,20 +791,20 @@ a:focus {
     margin: 0; 
 }
 
-.portfolio .portfolio-item figure img {
+.Certificate .Certificate-item figure img {
     width: 100%; 
     height: 100%; 
     object-fit: cover; 
 }
 
-.portfolio .portfolio-item figure:hover img {
+.Certificate .Certificate-item figure:hover img {
     opacity: 0.3;
     transition: 0.3s;
 }
 
-.portfolio .portfolio-item figure .link-preview,
-.portfolio .portfolio-item figure .link-details,
-.portfolio .portfolio-item figure .portfolio-title {
+.Certificate .Certificate-item figure .link-preview,
+.Certificate .Certificate-item figure .link-details,
+.Certificate.Certificate-item figure .Certificate-title {
     position: absolute;
     display: inline-block;
     opacity: 0;
@@ -816,15 +816,15 @@ a:focus {
     transition: 0.2s linear;
 }
 
-.portfolio .portfolio-item figure .link-preview i,
-.portfolio .portfolio-item figure .link-details i {
+.Certificate .Certificate-item figure .link-preview i,
+.Certificate .Certificate-item figure .link-details i {
     color: #222222;
     padding-top: 10px;
     font-size: 16px;
 }
 
-.portfolio .portfolio-item figure .link-preview:hover,
-.portfolio .portfolio-item figure .link-details:hover {
+.Certificate .Certificate-item figure .link-preview:hover,
+.Certificate .Certificate-item figure .link-details:hover {
     background: #222222;
 }
 
